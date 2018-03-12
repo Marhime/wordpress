@@ -1,0 +1,28 @@
+/*
+
+Theme Name: Basic Child
+Author: Maxime Joyes
+Version: 1.0
+Test Domain: basicchild
+Domain Path: /languages
+Description: Le super theme enfant de la mort qui tue en plus en BOOTSTRAP BASIC QUATRE
+Template: bootstrap-basic4
+
+*/
+
+.monfooter{
+    background: #333333;
+    color: white;
+    padding: 20px;
+}
+.monfooter p{
+    margin: 0;
+    padding: 0;
+}
+
+.img-parallax{
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
