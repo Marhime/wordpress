@@ -13,6 +13,7 @@ if ( have_posts() ): // si j'ai des posts
     get_template_part('content','zone3');
     get_template_part('content','zone4');
     get_template_part('content','zone5');
+    get_template_part('content','zone6');
 
 
     endwhile;

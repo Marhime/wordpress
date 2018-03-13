@@ -14,10 +14,16 @@ Template: bootstrap-basic4
     background: #333333;
     color: white;
     padding: 20px;
+    min-height: 200px !important;
 }
 .monfooter p{
-    margin: 0;
-    padding: 0;
+    position: relative;
+    bottom: -100px;
+}
+
+.prefooter{
+    position: relative;
+    bottom: -40px;
 }
 
 .img-parallax{
@@ -25,4 +31,19 @@ Template: bootstrap-basic4
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+}
+
+.nav-pills{
+    width: 100%;
+}
+.nav-pills li{
+    display: inline-block;
+    min-width: 150px;
+}
+.nav-pills li a{
+    padding: 5px;
+}
+
+.video-zone6{
+    margin-top: 60px;
 }
